@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jun 24 21:25:24 IST 2018
+0.baseType=DIRECTORY
+0.base=/Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/build/intermediates/transforms/dexMerger/debug/16
+0.path=classes.dex
+0.set=DEX
+count=1
