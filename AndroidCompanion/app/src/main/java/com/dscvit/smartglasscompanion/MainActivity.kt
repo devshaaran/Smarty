@@ -21,6 +21,8 @@ import android.net.Uri
 import android.support.v4.app.ActivityCompat
 import android.view.View
 import android.app.Activity
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -42,6 +44,8 @@ class MainActivity : AppCompatActivity() {
 
     private var mRequestingLocationUpdates = false
 
+    private lateinit var mDbChild: DatabaseReference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        supportActionBar?.hide()
@@ -49,6 +53,8 @@ class MainActivity : AppCompatActivity() {
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         mSettingsClient = LocationServices.getSettingsClient(this)
+
+        mDbChild = FirebaseDatabase.getInstance().getReference("directions")
 
         createLocationCallback()
         createLocationRequest()
@@ -148,6 +154,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateFirebase() {
         text_location.text = "lat : ${mCurrentLocation?.latitude}, lng : ${mCurrentLocation?.longitude}"
+        mDbChild.child("latitude").setValue(mCurrentLocation?.latitude)
+        mDbChild.child("longitude").setValue(mCurrentLocation?.longitude)
     }
 
     private fun checkPermissions(): Boolean {

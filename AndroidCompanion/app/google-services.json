@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "347400414809",
+    "firebase_url": "https://smartglass-e01ec.firebaseio.com",
+    "project_id": "smartglass-e01ec",
+    "storage_bucket": "smartglass-e01ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347400414809:android:7c13b0bfaf9cee94",
+        "android_client_info": {
+          "package_name": "com.dscvit.smartglasscompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347400414809-rntlj7v381pcem4mj0nf866ck30tq265.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dscvit.smartglasscompanion",
+            "certificate_hash": "15f1b15ff32abfbde058df2505a3e0f278205a6e"
+          }
+        },
+        {
+          "client_id": "347400414809-209bjtsmcpasa6hrgj131tnvgree3cai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAql8MDgjt5BaawFmtgIRXITLKRwQBdGpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347400414809-209bjtsmcpasa6hrgj131tnvgree3cai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
