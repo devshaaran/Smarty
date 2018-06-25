@@ -6,7 +6,7 @@ from time import sleep
 def mutual(start_destin,path_to):
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
+    api_key = 'Your API key '
     # Asks the user to input Where they are and where they want to go.
     origin = start_destin.replace(' ', '+')
     destination = path_to.replace(' ', '+')
@@ -67,7 +67,7 @@ def mutual(start_destin,path_to):
 def location_initiate(start_destin,path_to):
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
+    api_key = 'Your API key'
     destination = path_to.replace(' ', '+')
 
     while True:
