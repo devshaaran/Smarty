@@ -21,6 +21,9 @@ import android.net.Uri
 import android.support.v4.app.ActivityCompat
 import android.view.View
 import android.app.Activity
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException
+import com.google.android.gms.common.GooglePlayServicesRepairableException
+import com.google.android.gms.location.places.ui.PlacePicker
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_main.*
@@ -34,6 +37,7 @@ class MainActivity : AppCompatActivity() {
     private val REQUEST_CHECK_SETTINGS = 0x1
     private val UPDATE_INTERVAL_IN_MILLISECONDS: Long = 5000
     private val FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = UPDATE_INTERVAL_IN_MILLISECONDS / 2
+    private val PLACE_PICKER_REQUEST = 1
 
     private lateinit var mFusedLocationClient: FusedLocationProviderClient
     private lateinit var mSettingsClient: SettingsClient
@@ -70,6 +74,17 @@ class MainActivity : AppCompatActivity() {
                 mRequestingLocationUpdates = true
                 startLocationUpdates()
             }
+            val builder = PlacePicker.IntentBuilder()
+            try {
+                startActivityForResult(builder.build(this), PLACE_PICKER_REQUEST)
+            } catch (e: GooglePlayServicesRepairableException) {
+                e.printStackTrace()
+            } catch (e: GooglePlayServicesNotAvailableException) {
+                e.printStackTrace()
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+
         }
     }
 
@@ -222,6 +237,15 @@ class MainActivity : AppCompatActivity() {
                     Log.i(TAG, "User chose not to make required location settings changes.")
                     mRequestingLocationUpdates = false
                     updateFirebase()
+                }
+            }
+            PLACE_PICKER_REQUEST -> {
+                if(requestCode == Activity.RESULT_OK) {
+                    val place = PlacePicker.getPlace(data, this)
+                    text_place.text = "${place.name} - ${place.address} - ${place.locale}"
+                    mDbChild.child("desti_latitude").setValue(place.latLng.latitude)
+                    mDbChild.child("desti_longitude").setValue(place.latLng.longitude)
+                    mDbChild.child("desti_place_id").setValue(place.id)
                 }
             }
         }

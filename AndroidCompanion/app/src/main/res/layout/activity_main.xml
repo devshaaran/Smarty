@@ -19,7 +19,7 @@
         android:text=""
         android:textAlignment="center"
         android:textSize="17sp"
-        app:layout_constraintBottom_toTopOf="@+id/getLocationBtn"
+        app:layout_constraintBottom_toTopOf="@+id/text_place"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,10 +35,23 @@
         android:layout_marginStart="8dp"
         android:background="#FFFFFF"
         android:padding="10dp"
-        android:text="Get Current Location"
+        android:text="Choose Location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_place" />
+
+    <TextView
+        android:id="@+id/text_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/getLocationBtn"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_location" />
 
