@@ -173,6 +173,7 @@ def location_smart():
         start_destin = (str(latt)+', '+str(long))
         # Asks the user to input Where they are and where they want to go.
         origin = start_destin.replace(' ', '+')
+        destination = (str(latt_desti) + ', ' + str(long_desti))
         # Building the URL for the request
         nav_request = 'origin={}&destination={}&key={}'.format(origin, destination, api_key)
         request = endpoint + nav_request
