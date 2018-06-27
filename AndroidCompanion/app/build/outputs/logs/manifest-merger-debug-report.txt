@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c1a82c2abac4a691efb5690e4b5aeab0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/0525db5b53aa4c02fe06ef092c2c44b7/AndroidManifest.xml:17:1-22:12
@@ -61,20 +61,20 @@ MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/mi
 MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/dacec2366f28d3cc380b079fe3dd0564/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/f01da4f23a545c2de22d1109e39b9ef7/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/22358c707e2f38d2e8d8f12d96172e7a/AndroidManifest.xml:2:1-6:12
-INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-28:12
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:11-69
@@ -94,14 +94,8 @@ MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:6:22-64
-meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:8:5-10:66
-	android:value
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:10:9-64
-	android:name
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:9:9-54
 application
-ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:12:5-26:19
+ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:8:5-27:19
 MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c1a82c2abac4a691efb5690e4b5aeab0/AndroidManifest.xml:22:5-20
@@ -163,31 +157,37 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.g
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/bc6875363ffe7c071f6124748a5dbf51/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:17:9-35
-	android:label
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:15:9-41
-	android:roundIcon
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:16:9-54
-	android:icon
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:14:9-43
-	android:allowBackup
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:14:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:16:9-18:70
+	android:value
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:18:13-68
+	android:name
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:17:13-58
 activity#com.dscvit.smartglasscompanion.MainActivity
-ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:20:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml

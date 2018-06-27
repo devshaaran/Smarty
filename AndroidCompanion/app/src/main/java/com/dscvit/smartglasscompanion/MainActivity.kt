@@ -240,7 +240,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             PLACE_PICKER_REQUEST -> {
-                if(requestCode == Activity.RESULT_OK) {
+                if(resultCode == Activity.RESULT_OK) {
                     val place = PlacePicker.getPlace(data, this)
                     text_place.text = "${place.name} - ${place.address} - ${place.locale}"
                     mDbChild.child("desti_latitude").setValue(place.latLng.latitude)
