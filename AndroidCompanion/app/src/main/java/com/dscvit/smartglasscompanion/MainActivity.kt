@@ -35,9 +35,9 @@ class MainActivity : AppCompatActivity() {
 
     private val REQUEST_PERMISSIONS_REQUEST_CODE = 34
     private val REQUEST_CHECK_SETTINGS = 0x1
-    private val UPDATE_INTERVAL_IN_MILLISECONDS: Long = 5000
+    private val UPDATE_INTERVAL_IN_MILLISECONDS: Long = 1000
     private val FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = UPDATE_INTERVAL_IN_MILLISECONDS / 2
-    private val PLACE_PICKER_REQUEST = 1
+    private val PLACE_PICKER_REQUEST = 123
 
     private lateinit var mFusedLocationClient: FusedLocationProviderClient
     private lateinit var mSettingsClient: SettingsClient
