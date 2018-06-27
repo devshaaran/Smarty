@@ -297,7 +297,7 @@ def main():
                 location_smart()
                 opener = False
 
-            #TODO bring in location and list
+            #TODO bring in list
 
             sleep(1)
     except KeyboardInterrupt:
