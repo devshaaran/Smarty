@@ -6,7 +6,7 @@ from time import sleep
 def mutual(start_destin,path_to):
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
+    api_key = 'API KEY'
     # Asks the user to input Where they are and where they want to go.
     origin = start_destin.replace(' ', '+')
     destination = path_to.replace(' ', '+')
@@ -67,7 +67,7 @@ def mutual(start_destin,path_to):
 def location_initiate(start_destin,path_to):
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
+    api_key = 'API KEY'
     destination = path_to.replace(' ', '+')
 
     while True:
@@ -156,7 +156,7 @@ def location_smart():
     from firebase import firebase
     # Google Maps Ddirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
+    api_key = 'API KEY'
     firebase = firebase.FirebaseApplication('https://smartglass-e01ec.firebaseio.com/', None)
 
     while True:
@@ -179,7 +179,7 @@ def location_smart():
             nav_request = 'origin={}&destination={}&key={}'.format(origin, destination, api_key)
             request = endpoint + nav_request
             # Sends the request and reads the response.
-            response = urllib.request.urlopen(request).read()
+            response = urllib.request.urlopen(request).read().decode('utf-8')
             # Loads response as JSON
             directions = json.loads(response)
             routes = directions['routes']
