@@ -151,7 +151,7 @@ def location_smart():
     from firebase import firebase
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
+    api_key = 'YOUR API KEY HERE'
     firebase = firebase.FirebaseApplication('https://smartglass-e01ec.firebaseio.com/', None)
     virtual = viewport(device, width=device.width, height=768)
 
