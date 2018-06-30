@@ -6,7 +6,6 @@ import RPi.GPIO as GPIO
 import picamera
 import random as rand
 import io
-import sys
 import face_recognition
 import numpy as np
 from luma.core.virtual import viewport
@@ -15,8 +14,9 @@ import urllib.request, json
 from bs4 import BeautifulSoup
 from nltk import word_tokenize
 from time import sleep
-from firebase import firebase
-
+from cv2 import imread , putText , imwrite , FONT_HERSHEY_COMPLEX
+import math
+import datetime
 
 
 cn1 = 7
@@ -30,6 +30,88 @@ GPIO.setup(cn1, GPIO.IN, GPIO.PUD_DOWN)
 GPIO.setup(cn2, GPIO.IN, GPIO.PUD_DOWN)
 GPIO.setup(cn3, GPIO.IN, GPIO.PUD_DOWN)
 opener = False
+
+
+def posn(angle, arm_length):
+    dx = int(math.cos(math.radians(angle)) * arm_length)
+    dy = int(math.sin(math.radians(angle)) * arm_length)
+    return (dx, dy)
+
+
+def clocky():
+    today_last_time = "Unknown"
+    while True:
+        now = datetime.datetime.now()
+        today_date = now.strftime("%d %b %y")
+        today_time = now.strftime("%H:%M:%S")
+        if today_time != today_last_time:
+            today_last_time = today_time
+            with canvas(device) as draw:
+                now = datetime.datetime.now()
+                today_date = now.strftime("%d %b %y")
+
+                margin = 4
+
+                cx = 30
+                cy = min(device.height, 64) / 2
+
+                left = cx - cy
+                right = cx + cy
+
+                hrs_angle = 270 + (30 * (now.hour + (now.minute / 60.0)))
+                hrs = posn(hrs_angle, cy - margin - 7)
+
+                min_angle = 270 + (6 * now.minute)
+                mins = posn(min_angle, cy - margin - 2)
+
+                sec_angle = 270 + (6 * now.second)
+                secs = posn(sec_angle, cy - margin - 2)
+
+                draw.ellipse((left + margin, margin, right - margin, min(device.height, 64) - margin), outline="white")
+                draw.line((cx, cy, cx + hrs[0], cy + hrs[1]), fill="white")
+                draw.line((cx, cy, cx + mins[0], cy + mins[1]), fill="white")
+                draw.line((cx, cy, cx + secs[0], cy + secs[1]), fill="red")
+                draw.ellipse((cx - 2, cy - 2, cx + 2, cy + 2), fill="white", outline="white")
+                draw.text((2 * (cx + margin), cy - 8), today_date, fill="yellow")
+                draw.text((2 * (cx + margin), cy), today_time, fill="yellow")
+
+        sleep(0.1)
+        if GPIO.input(cn1) == 1:
+            break
+
+def show_dir_image(path,texts):
+    while True:
+        img = imread(path)
+        putText(img, texts, (0, 13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
+        imwrite('0.png', img)
+        photo = Image.open('/home/pi/smart_glass-master/0.png')
+        device.display(photo.convert(device.mode))
+        sleep(2)
+
+def text_splitter(texter):
+
+    virtual = viewport(device, width=device.width, height=768)
+    lister_text = word_tokenize(texter)
+    total_words = 0
+    x = []
+    blurb = ''
+    for i in lister_text:
+        number_words = len(i)
+        total_words = number_words + total_words + 1
+        if total_words <= 20:
+            x.append(i)
+        if total_words > 20:
+            blurb = blurb + ' '.join(x) + ' ' + '\n'
+            x = []
+            total_words = 0 + number_words
+            x.append(i)
+
+    for _ in range(2):
+        with canvas(virtual) as draw:
+            for i, line in enumerate(blurb.split("\n")):
+                draw.text((0, (i * 12)), text=line, fill="white")
+
+    sleep(2)
 
 
 
@@ -47,8 +129,9 @@ def initiate_gif(img_path):
                 background = Image.new("RGB", device.size, "white")
                 background.paste(frame.resize(size, resample=Image.LANCZOS), posn)
                 device.display(background.convert(device.mode))
-                time.sleep(1)
-                print(count)
+            if count == 10:
+                break
+
 
 def show_image(img_path):
     photo = Image.open(img_path)
@@ -151,7 +234,7 @@ def location_smart():
     from firebase import firebase
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'YOUR API KEY HERE'
+    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
     firebase = firebase.FirebaseApplication('https://smartglass-e01ec.firebaseio.com/', None)
     virtual = viewport(device, width=device.width, height=768)
 
@@ -221,58 +304,71 @@ def location_smart():
 
             if len(goway) == 0:
                 if len(first_step) > 1:
-                    print(go_direction_1)
+
+                    #text_splitter - param type
+                    virtual = viewport(device, width=device.width, height=768)
+                    lister_text = word_tokenize(go_direction_1)
+                    total_words = 0
+                    x = []
+                    blurb = ''
+                    for i in lister_text:
+                        number_words = len(i)
+                        total_words = number_words + total_words + 1
+                        if total_words <= 20:
+                            x.append(i)
+                        if total_words > 20:
+                            blurb = blurb + ' '.join(x) + ' ' + '\n'
+                            x = []
+                            total_words = 0 + number_words
+                            x.append(i)
+
+                    for _ in range(2):
+                        with canvas(virtual) as draw:
+                            draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
+                            for i, line in enumerate(blurb.split("\n")):
+                                draw.text((0, 12 + (i * 12)), text=line, fill="white")
                 else:
-                    print('go on you are on your last leg')
-                print('turn in ' + str(org_distance) + ' m')
+
+                    virtual = viewport(device, width=device.width, height=768)
+
+                    for _ in range(2):
+                        with canvas(virtual) as draw:
+                            draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
+                            draw.text((0, 24), "Last leg hooray ! ", fill="white")
+
 
             else:
                 if len(first_step) > 1:
                     toggle_direction = goway[1]
-                    print(toggle_direction)
+
                     if toggle_direction == 'north' or toggle_direction == 'straight':
-                        straighter = Image.open(img_path_straight)
-                        device.display(straighter.convert(device.mode))
+                        show_dir_image('/home/pi/smart_glass-master/Images/straight_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
                     if toggle_direction == 'northeast':
-                        straighter = Image.open(img_path_northeast)
-                        device.display(straighter.convert(device.mode))
+                        show_dir_image('/home/pi/smart_glass-master/Images/northeast_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
                     if toggle_direction == 'northwest':
-                        straighter = Image.open(img_path_northwest)
-                        device.display(straighter.convert(device.mode))
+                        show_dir_image('/home/pi/smart_glass-master/Images/northwest_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
                     if toggle_direction == 'right':
-                        straighter = Image.open(img_path_right)
-                        device.display(straighter.convert(device.mode))
+                        show_dir_image('/home/pi/smart_glass-master/Images/right_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
                     if toggle_direction == 'left':
-                        straighter = Image.open(img_path_left)
-                        device.display(straighter.convert(device.mode))
+                        show_dir_image('/home/pi/smart_glass-master/Images/left_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
+
 
                 else:
-                    print('you are on your last leg of the journey')
-                print('turn in ' + str(org_distance) + ' m')
+
+                    virtual = viewport(device, width=device.width, height=768)
+
+                    for _ in range(2):
+                        with canvas(virtual) as draw:
+                            draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
+                            draw.text((0, 24), "Last leg hooray ! ", fill="white")
 
 
         else:
-            goway = []
 
-            for d in main_way:
-                for e in directions:
-                    if d.lower() == e:
-                        goway.append(d)
+            show_dir_image('/home/pi/smart_glass-master/Images/straight_arrow.png',('go on untill ' + str(org_distance) + ' m'))
+            text_splitter(go_direction)
 
-            if len(goway) == 0:
-                print(go_direction)
-                straighter = Image.open(img_path_straight)
-                device.display(straighter.convert(device.mode))
-                print('go on untill ' + str(org_distance) + ' metres')
 
-            else:
-                toggle_direction = goway[0]
-                print(toggle_direction)
-                straighter = Image.open(img_path_straight)
-                device.display(straighter.convert(device.mode))
-                print('go on untill ' + str(org_distance) + ' metres')
-
-            sleep(0.2)
 
 
 def main():
@@ -282,25 +378,28 @@ def main():
             button_next = GPIO.input(cn1)
             button_ok = GPIO.input(cn2)
             button_back = GPIO.input(cn3)
-            initiate_gif('D:\Youtube\linkedin\smart glasses\\anim_gif\\camera_gif')
-            show_image('D:\Youtube\linkedin\smart glasses\camera')
+
+            clocky()
+            show_image('/home/pi/smart_glass-master/Images/check_cam.png')
             if opener == True:
                 camera_inititate()
                 opener = False
-            initiate_gif('D:\Youtube\linkedin\smart glasses\\anim_gif\\findwho_gif')
-            show_image('D:\Youtube\linkedin\smart glasses\\findwho')
+            else:
+                initiate_gif('/home/pi/smart_glass-master/Images/cam2findwho.gif')
+
+            show_image('/home/pi/smart_glass-master/Images/find_who.png')
             if opener == True:
                 findwho_initiate()
                 opener = False
-            initiate_gif('D:\Youtube\linkedin\smart glasses\\anim_gif\\location_gif')
-            show_image('D:\Youtube\linkedin\smart glasses\\location')
+            else:
+                initiate_gif('/home/pi/smart_glass-master/Images/findwho2loc.gif')
+
+            show_image('/home/pi/smart_glass-master/Images/location.png')
             if opener == True:
                 location_smart()
                 opener = False
 
-            #TODO bring in list
 
-            sleep(1)
     except KeyboardInterrupt:
         GPIO.cleanup()
 
