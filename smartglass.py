@@ -19,16 +19,16 @@ import math
 import datetime
 
 
-cn1 = 7
-cn2 = 8
-cn3 = 10
+cn1 = 31
+cn2 = 33
+cn3 = 35
 GPIO.setmode(GPIO.BOARD)
 
 # PIN 7 AND 3.3V
 # normally 0 when connected 1
-GPIO.setup(cn1, GPIO.IN, GPIO.PUD_DOWN)
-GPIO.setup(cn2, GPIO.IN, GPIO.PUD_DOWN)
-GPIO.setup(cn3, GPIO.IN, GPIO.PUD_DOWN)
+GPIO.setup(cn1, GPIO.IN, GPIO.PUD_UP)
+GPIO.setup(cn2, GPIO.IN, GPIO.PUD_UP)
+GPIO.setup(cn3, GPIO.IN, GPIO.PUD_UP)
 opener = False
 
 
@@ -76,7 +76,7 @@ def clocky():
                 draw.text((2 * (cx + margin), cy), today_time, fill="yellow")
 
         sleep(0.1)
-        if GPIO.input(cn1) == 1:
+        if GPIO.input(cn1) == 0:
             break
 
 def show_dir_image(path,texts):
@@ -139,9 +139,9 @@ def show_image(img_path):
     # display on screen for a few seconds
     while True:
         device.display(photo.convert(device.mode))
-        if GPIO.input(cn1) == 1:
+        if GPIO.input(cn1) == 0:
             break
-        if GPIO.input(cn2) == 1:
+        if GPIO.input(cn2) == 0:
             opener = True
             break
 
@@ -163,7 +163,7 @@ def camera_inititate():
         while True:
 
             camera.start_preview()
-            if (GPIO.input(cn2) == 1):
+            if (GPIO.input(cn2) == 0):
                 camera.capture(stream, format='jpeg', resize=device.size)
                 camera.close()
                 # "rewind" the stream to the beginning so we can read its content
@@ -175,7 +175,7 @@ def camera_inititate():
                 # display on screen for a few seconds
                 device.display(photo.convert(device.mode))
                 sleep(displayTime)
-            if (GPIO.input(cn3) == 1):
+            if (GPIO.input(cn3) == 0):
                 camera.close()
                 break
 
@@ -227,7 +227,7 @@ def findwho_initiate():
                 with canvas(virtual) as draw:
                     draw.text((20, 12), name , fill="white")
 
-            if (GPIO.input(cn3) == 1):
+            if (GPIO.input(cn3) == 0):
                 break
 
 def location_smart():
@@ -242,7 +242,7 @@ def location_smart():
         with canvas(virtual) as draw:
             draw.text((0, 12), 'Are you sure you have set the destination in the app?', fill="white")
 
-    while (GPIO.input(cn2) == 1):
+    while (GPIO.input(cn2) == 0):
         break
 
 
@@ -375,9 +375,9 @@ def main():
 
     try:
         while True:
-            button_next = GPIO.input(cn1)
-            button_ok = GPIO.input(cn2)
-            button_back = GPIO.input(cn3)
+            #button_next = GPIO.input(cn1)
+            #button_ok = GPIO.input(cn2)
+            #button_back = GPIO.input(cn3)
 
             clocky()
             show_image('/home/pi/smart_glass-master/Images/check_cam.png')
