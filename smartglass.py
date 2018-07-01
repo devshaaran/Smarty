@@ -19,9 +19,9 @@ import math
 import datetime
 
 
-cn1 = 31
-cn2 = 33
-cn3 = 35
+cn1 = 33
+cn2 = 35
+cn3 = 37
 GPIO.setmode(GPIO.BOARD)
 
 # PIN 7 AND 3.3V
@@ -29,7 +29,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(cn1, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(cn2, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(cn3, GPIO.IN, GPIO.PUD_UP)
-opener = False
+
 
 
 def posn(angle, arm_length):
@@ -88,6 +88,14 @@ def show_dir_image(path,texts):
         device.display(photo.convert(device.mode))
         sleep(2)
 
+def show_dir_image_once(path,texts):
+    img = imread(path)
+    putText(img, texts, (0, 13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
+    imwrite('0.png', img)
+    photo = Image.open('/home/pi/smart_glass-master/0.png')
+    device.display(photo.convert(device.mode))
+    
+
 def text_splitter(texter):
 
     virtual = viewport(device, width=device.width, height=768)
@@ -111,26 +119,25 @@ def text_splitter(texter):
             for i, line in enumerate(blurb.split("\n")):
                 draw.text((0, (i * 12)), text=line, fill="white")
 
-    sleep(2)
+    
 
 
 
 def initiate_gif(img_path):
     regulator = framerate_regulator(fps=10)
     banana = Image.open(img_path)
-    size = [min(*device.size)] * 2
-    posn = ((device.width - size[0]) // 2, device.height - size[1])
     count = 0
 
-    while True:
+    while count <= 10:
         for frame in ImageSequence.Iterator(banana):
-            count += 1
+            count += 2
             with regulator:
                 background = Image.new("RGB", device.size, "white")
-                background.paste(frame.resize(size, resample=Image.LANCZOS), posn)
+                background.paste(frame)
                 device.display(background.convert(device.mode))
-            if count == 10:
-                break
+                print(count)
+                
+                    
 
 
 def show_image(img_path):
@@ -142,6 +149,7 @@ def show_image(img_path):
         if GPIO.input(cn1) == 0:
             break
         if GPIO.input(cn2) == 0:
+            global opener
             opener = True
             break
 
@@ -240,139 +248,152 @@ def location_smart():
 
     for _ in range(2):
         with canvas(virtual) as draw:
-            draw.text((0, 12), 'Are you sure you have set the destination in the app?', fill="white")
-
-    while (GPIO.input(cn2) == 0):
-        break
+            draw.text((0, 15), 'Are you sure you have ', fill="white")
+            draw.text((0, 27), 'set the destination', fill="white")
+            draw.text((0, 39), 'in the app?', fill="white")
+            
+    if GPIO.input(cn2) == 1:
+        while (GPIO.input(cn2) == 1):
+            continue
 
 
     while True:
-        whole_direct = firebase.get('/directions', None)
-        latt = whole_direct['lattitude']
-        long = whole_direct['longitude']
-        latt_desti = whole_direct['desti_latitude']
-        long_desti = whole_direct['desti_longitude']
-        destination = (str(latt_desti) + ', ' + str(long_desti))
-        start_destin = (str(latt)+', '+str(long))
-        # Asks the user to input Where they are and where they want to go.
-        origin = start_destin.replace(' ', '+')
-        destination = (str(latt_desti) + ', ' + str(long_desti))
-        # Building the URL for the request
-        nav_request = 'origin={}&destination={}&key={}'.format(origin, destination, api_key)
-        request = endpoint + nav_request
-        # Sends the request and reads the response.
-        response = urllib.request.urlopen(request).read()
-        # Loads response as JSON
-        directions = json.loads(response)
-        routes = directions['routes']
-        legs = routes[0]['legs']
-        # print(len(legs))
-        first_step = legs[0]['steps']
-        # print(len(first_step))
-        instructions = first_step[0]['html_instructions']
-        if len(first_step) > 1:
-            instructions_1 = first_step[1]['html_instructions']
-            soup_1 = BeautifulSoup(instructions_1, "html5lib")
-            go_direction_1 = soup_1.get_text()
+        try:
+            whole_direct = firebase.get('/directions', None)
+            latt = whole_direct['latitude']
+            long = whole_direct['longitude']
+            latt_desti = whole_direct['desti_latitude']
+            long_desti = whole_direct['desti_longitude']
+            destination = (str(latt_desti) + ', ' + str(long_desti))
+            start_destin = (str(latt)+', '+str(long))
+            # Asks the user to input Where they are and where they want to go.
+            origin = start_destin.replace(' ', '+')
+            destination = (str(latt_desti) + ', ' + str(long_desti))
+            destination = destination.replace(' ', '+')
+            # Building the URL for the request
+            nav_request = 'origin={}&destination={}&key={}'.format(origin, destination, api_key)
+            request = endpoint + nav_request
+            # Sends the request and reads the response.
+            response = urllib.request.urlopen(request).read().decode('utf-8')
+            # Loads response as JSON
+            directions = json.loads(response)
+            routes = directions['routes']
+            legs = routes[0]['legs']
+            # print(len(legs))
+            first_step = legs[0]['steps']
+            # print(len(first_step))
+            instructions = first_step[0]['html_instructions']
+            go_direction_1 = ''
+            if len(first_step) > 1:
+                instructions_1 = first_step[1]['html_instructions']
+                soup_1 = BeautifulSoup(instructions_1, "html5lib")
+                go_direction_1 = soup_1.get_text()
 
-        distance = first_step[0]['distance']['text']
-        soup = BeautifulSoup(instructions, "html5lib")
-        go_direction = soup.get_text()
-        conversion = distance.split(' ')
-        org_distance = 0
-        if conversion[1] == 'km':
-            org_distance = float(conversion[0]) * 1000
-        if conversion[1] == 'm':
-            org_distance = conversion[0]
+            distance = first_step[0]['distance']['text']
+            soup = BeautifulSoup(instructions, "html5lib")
+            go_direction = soup.get_text()
+            conversion = distance.split(' ')
+            org_distance = 0
+            if conversion[1] == 'km':
+                org_distance = float(conversion[0]) * 1000
+            if conversion[1] == 'm':
+                org_distance = conversion[0]
 
-        collector = word_tokenize(go_direction)
-        # print(distance)
-        # print(int(org_distance))
+            collector = word_tokenize(go_direction)
+            # print(distance)
+            # print(int(org_distance))
 
-        main_way_list = go_direction.split('(')
-        main_way = main_way_list[0]
+            main_way_list = go_direction.split('(')
+            main_way = main_way_list[0]
 
-        directions = ['north', 'northeast', 'northwest', 'straight', 'left', 'right']
+            directions = ['north', 'northeast', 'northwest', 'straight', 'left', 'right']
 
-        if int(org_distance) < 6:
-            goway = []
+            if int(org_distance) < 60:
+                goway = []
 
-            for d in main_way:
-                for e in directions:
-                    if d.lower() == e:
-                        goway.append(d)
+                for d in main_way:
+                    for e in directions:
+                        if d.lower() == e:
+                            goway.append(d)
 
-            if len(goway) == 0:
-                if len(first_step) > 1:
+                if len(goway) == 0:
+                    if len(first_step) > 1:
 
-                    #text_splitter - param type
-                    virtual = viewport(device, width=device.width, height=768)
-                    lister_text = word_tokenize(go_direction_1)
-                    total_words = 0
-                    x = []
-                    blurb = ''
-                    for i in lister_text:
-                        number_words = len(i)
-                        total_words = number_words + total_words + 1
-                        if total_words <= 20:
-                            x.append(i)
-                        if total_words > 20:
-                            blurb = blurb + ' '.join(x) + ' ' + '\n'
-                            x = []
-                            total_words = 0 + number_words
-                            x.append(i)
+                        #text_splitter - param type
+                        virtual = viewport(device, width=device.width, height=768)
+                        lister_text = word_tokenize(go_direction_1)
+                        total_words = 0
+                        x = []
+                        blurb = ''
+                        for i in lister_text:
+                            number_words = len(i)
+                            total_words = number_words + total_words + 1
+                            if total_words <= 20:
+                                x.append(i)
+                            if total_words > 20:
+                                blurb = blurb + ' '.join(x) + ' ' + '\n'
+                                x = []
+                                total_words = 0 + number_words
+                                x.append(i)
 
-                    for _ in range(2):
-                        with canvas(virtual) as draw:
-                            draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
-                            for i, line in enumerate(blurb.split("\n")):
-                                draw.text((0, 12 + (i * 12)), text=line, fill="white")
+                        for _ in range(2):
+                            with canvas(virtual) as draw:
+                                draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
+                                for i, line in enumerate(blurb.split("\n")):
+                                    draw.text((0, 12 + (i * 12)), text=line, fill="white")
+                    else:
+
+                        virtual = viewport(device, width=device.width, height=768)
+
+                        for _ in range(2):
+                            with canvas(virtual) as draw:
+                                draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
+                                draw.text((0, 24), "Last leg hooray ! ", fill="white")
+
+
                 else:
+                    if len(first_step) > 1:
+                        toggle_direction = goway[1]
 
-                    virtual = viewport(device, width=device.width, height=768)
+                        if toggle_direction == 'north' or toggle_direction == 'straight':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/straight_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
+                        if toggle_direction == 'northeast':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/northeast_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
+                        if toggle_direction == 'northwest':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/northwest_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
+                        if toggle_direction == 'right':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/right_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
+                        if toggle_direction == 'left':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/left_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
 
-                    for _ in range(2):
-                        with canvas(virtual) as draw:
-                            draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
-                            draw.text((0, 24), "Last leg hooray ! ", fill="white")
+
+                    else:
+
+                        virtual = viewport(device, width=device.width, height=768)
+
+                        for _ in range(2):
+                            with canvas(virtual) as draw:
+                                draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
+                                draw.text((0, 24), "Last leg hooray ! ", fill="white")
 
 
             else:
-                if len(first_step) > 1:
-                    toggle_direction = goway[1]
 
-                    if toggle_direction == 'north' or toggle_direction == 'straight':
-                        show_dir_image('/home/pi/smart_glass-master/Images/straight_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                    if toggle_direction == 'northeast':
-                        show_dir_image('/home/pi/smart_glass-master/Images/northeast_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                    if toggle_direction == 'northwest':
-                        show_dir_image('/home/pi/smart_glass-master/Images/northwest_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                    if toggle_direction == 'right':
-                        show_dir_image('/home/pi/smart_glass-master/Images/right_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                    if toggle_direction == 'left':
-                        show_dir_image('/home/pi/smart_glass-master/Images/left_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
+                show_dir_image_once('/home/pi/smart_glass-master/Images/straight_arrow.png',('Go ' + str(org_distance) + ' m'))
+            
+            if GPIO.input(cn2) == 0:
+                text_splitter(go_direction)
+        
+            if GPIO.input(cn3) == 0:
+                break
 
-
-                else:
-
-                    virtual = viewport(device, width=device.width, height=768)
-
-                    for _ in range(2):
-                        with canvas(virtual) as draw:
-                            draw.text((0, 0), 'turn in ' + str(org_distance) + ' m', fill="white")
-                            draw.text((0, 24), "Last leg hooray ! ", fill="white")
-
-
-        else:
-
-            show_dir_image('/home/pi/smart_glass-master/Images/straight_arrow.png',('go on untill ' + str(org_distance) + ' m'))
-            text_splitter(go_direction)
-
-
+        except Exception as e:
+            print(e)
 
 
 def main():
-
+    global opener
+    opener = False
     try:
         while True:
             #button_next = GPIO.input(cn1)
@@ -398,10 +419,9 @@ def main():
             if opener == True:
                 location_smart()
                 opener = False
-
-
+    
     except KeyboardInterrupt:
-        GPIO.cleanup()
+         GPIO.cleanup()
 
 if __name__ == "__main__":
     try:
@@ -409,3 +429,4 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         pass
+
