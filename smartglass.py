@@ -94,6 +94,7 @@ def show_dir_image_once(path,texts):
     imwrite('0.png', img)
     photo = Image.open('/home/pi/smart_glass-master/0.png')
     device.display(photo.convert(device.mode))
+    sleep(0.3)
     
 
 def text_splitter(texter):
