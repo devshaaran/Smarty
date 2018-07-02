@@ -148,7 +148,7 @@ def weather_req():
     nav_request = 'lat={}&lon={}&APPID={}'.format(latt, long, api_key)
     request = endpoint + nav_request
     # Sends the request and reads the response.
-    response = urllib.request.urlopen(request).read()
+    response = urllib.request.urlopen(request).read().decode('utf-8')
     # Loads response as JSON
     weather = json.loads(response)
     current_temp = weather['list'][0]['main']['temp']
