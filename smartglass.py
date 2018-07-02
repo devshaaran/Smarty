@@ -14,10 +14,9 @@ import urllib.request, json
 from bs4 import BeautifulSoup
 from nltk import word_tokenize
 from time import sleep
-from cv2 import imread , putText , imwrite , FONT_HERSHEY_COMPLEX
+from cv2 import imread, putText, imwrite, FONT_HERSHEY_COMPLEX
 import math
 import datetime
-
 
 cn1 = 33
 cn2 = 35
@@ -29,7 +28,6 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(cn1, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(cn2, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(cn3, GPIO.IN, GPIO.PUD_UP)
-
 
 
 def posn(angle, arm_length):
@@ -79,7 +77,8 @@ def clocky():
         if GPIO.input(cn1) == 0:
             break
 
-def show_dir_image(path,texts):
+
+def show_dir_image(path, texts):
     while True:
         img = imread(path)
         putText(img, texts, (0, 13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
@@ -88,17 +87,17 @@ def show_dir_image(path,texts):
         device.display(photo.convert(device.mode))
         sleep(2)
 
-def show_dir_image_once(path,texts):
+
+def show_dir_image_once(path, texts):
     img = imread(path)
-    putText(img, texts, (0, 13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
+    putText(img, texts, (0,13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
     imwrite('0.png', img)
     photo = Image.open('/home/pi/smart_glass-master/0.png')
     device.display(photo.convert(device.mode))
     sleep(0.3)
-    
+
 
 def text_splitter(texter):
-
     virtual = viewport(device, width=device.width, height=768)
     lister_text = word_tokenize(texter)
     total_words = 0
@@ -120,9 +119,6 @@ def text_splitter(texter):
             for i, line in enumerate(blurb.split("\n")):
                 draw.text((0, (i * 12)), text=line, fill="white")
 
-    
-
-
 
 def initiate_gif(img_path):
     regulator = framerate_regulator(fps=10)
@@ -137,9 +133,37 @@ def initiate_gif(img_path):
                 background.paste(frame)
                 device.display(background.convert(device.mode))
                 print(count)
-                
-                    
 
+def weather_req():
+    from firebase import firebase
+    # Google Maps Ddirections API endpoint
+    endpoint = 'http://api.openweathermap.org/data/2.5/forecast?'
+    api_key = 'e33c84cc9eb1157c533611a494f638a3'
+    firebase = firebase.FirebaseApplication('https://smartglass-e01ec.firebaseio.com/', None)
+    whole_direct = firebase.get('/directions', None)
+    latt = whole_direct['latitude']
+    long = whole_direct['longitude']
+    # Asks the user to input Where they are and where they want to go.
+    # Building the URL for the request
+    nav_request = 'lat={}&lon={}&APPID={}'.format(latt, long, api_key)
+    request = endpoint + nav_request
+    # Sends the request and reads the response.
+    response = urllib.request.urlopen(request).read()
+    # Loads response as JSON
+    weather = json.loads(response)
+    current_temp = weather['list'][0]['main']['temp']
+    temp_c = current_temp - 273.15
+    temp_c_str = str(int(temp_c)) + '°C'
+    descript_place = weather['list'][0]['weather'][0]['main']
+    img = imread('/home/pi/smart_glass-master/Images/straight_arrow.png')
+    putText(img, descript_place , (40, 13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
+    putText(img, temp_c_str , (49, 45), FONT_HERSHEY_COMPLEX, 0.60, (0, 255, 0))
+    imwrite('0.png', img)
+    photo = Image.open('/home/pi/smart_glass-master/0.png')
+    while True:
+        device.display(photo.convert(device.mode))
+        if GPIO.input(cn3) == 0:
+            break
 
 def show_image(img_path):
     photo = Image.open(img_path)
@@ -155,8 +179,7 @@ def show_image(img_path):
             break
 
 
-def camera_inititate():
-
+def camera_initiate():
     cameraResolution = (1024, 768)
     displayTime = 3
 
@@ -167,7 +190,7 @@ def camera_inititate():
 
         # set camera resolution
         camera.resolution = cameraResolution
-        #print("Starting camera preview...")
+        # print("Starting camera preview...")
 
         while True:
 
@@ -177,10 +200,10 @@ def camera_inititate():
                 camera.close()
                 # "rewind" the stream to the beginning so we can read its content
                 stream.seek(0)
-                #print("Displaying photo for {0} seconds...".format(displayTime))
+                # print("Displaying photo for {0} seconds...".format(displayTime))
                 # open photo
                 photo = Image.open(stream)
-                photo.save('home/'+ str(rand.randint(0,99999999))+'.jpg')
+                photo.save('home/' + str(rand.randint(0, 99999999)) + '.jpg')
                 # display on screen for a few seconds
                 device.display(photo.convert(device.mode))
                 sleep(displayTime)
@@ -188,8 +211,8 @@ def camera_inititate():
                 camera.close()
                 break
 
-def findwho_initiate():
 
+def findwho_initiate():
     # Get a reference to the Raspberry Pi camera.
     # If this fails, make sure you have a camera connected to the RPi and that you
     # enabled your camera in raspi-config and rebooted first.
@@ -221,7 +244,7 @@ def findwho_initiate():
         # Loop over each face found in the frame to see if it's someone we know.
         for face_encoding in face_encodings:
             # See if the face is a match for the known face(s)
-            match = face_recognition.compare_faces([obama_face_encoding,shaaran_face_encoding], face_encoding)
+            match = face_recognition.compare_faces([obama_face_encoding, shaaran_face_encoding], face_encoding)
             name = "<Unknown Person>"
 
             if match[0]:
@@ -234,10 +257,21 @@ def findwho_initiate():
 
             for _ in range(2):
                 with canvas(virtual) as draw:
-                    draw.text((20, 12), name , fill="white")
+                    draw.text((20, 12), name, fill="white")
 
             if (GPIO.input(cn3) == 0):
                 break
+
+def rec_initiate():
+    virtual = viewport(device, width=device.width, height=768)
+
+    for _ in range(2):
+        with canvas(virtual) as draw:
+            draw.text((0, 15), ' UNDER DEVOLOPMENT ', fill="white")
+
+    if GPIO.input(cn3) == 1:
+        while (GPIO.input(cn3) == 1):
+            continue
 
 def location_smart():
     from firebase import firebase
@@ -252,11 +286,10 @@ def location_smart():
             draw.text((0, 15), 'Are you sure you have ', fill="white")
             draw.text((0, 27), 'set the destination', fill="white")
             draw.text((0, 39), 'in the app?', fill="white")
-            
+
     if GPIO.input(cn2) == 1:
         while (GPIO.input(cn2) == 1):
             continue
-
 
     while True:
         try:
@@ -266,7 +299,7 @@ def location_smart():
             latt_desti = whole_direct['desti_latitude']
             long_desti = whole_direct['desti_longitude']
             destination = (str(latt_desti) + ', ' + str(long_desti))
-            start_destin = (str(latt)+', '+str(long))
+            start_destin = (str(latt) + ', ' + str(long))
             # Asks the user to input Where they are and where they want to go.
             origin = start_destin.replace(' ', '+')
             destination = (str(latt_desti) + ', ' + str(long_desti))
@@ -297,7 +330,7 @@ def location_smart():
             org_distance = 0
             if conversion[1] == 'km':
                 org_distance = float(conversion[0]) * 1000
-            if conversion[1] == 'm':
+            elif conversion[1] == 'm':
                 org_distance = conversion[0]
 
             collector = word_tokenize(go_direction)
@@ -320,7 +353,7 @@ def location_smart():
                 if len(goway) == 0:
                     if len(first_step) > 1:
 
-                        #text_splitter - param type
+                        # text_splitter - param type
                         virtual = viewport(device, width=device.width, height=768)
                         lister_text = word_tokenize(go_direction_1)
                         total_words = 0
@@ -357,15 +390,20 @@ def location_smart():
                         toggle_direction = goway[1]
 
                         if toggle_direction == 'north' or toggle_direction == 'straight':
-                            show_dir_image_once('/home/pi/smart_glass-master/Images/straight_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                        if toggle_direction == 'northeast':
-                            show_dir_image_once('/home/pi/smart_glass-master/Images/northeast_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                        if toggle_direction == 'northwest':
-                            show_dir_image_once('/home/pi/smart_glass-master/Images/northwest_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                        if toggle_direction == 'right':
-                            show_dir_image_once('/home/pi/smart_glass-master/Images/right_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
-                        if toggle_direction == 'left':
-                            show_dir_image_once('/home/pi/smart_glass-master/Images/left_arrow.png' , ('turn in ' + str(org_distance) + ' m'))
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/straight_arrow.png',
+                                                ('turn in ' + str(org_distance) + ' m'))
+                        elif toggle_direction == 'northeast':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/northeast_arrow.png',
+                                                ('turn in ' + str(org_distance) + ' m'))
+                        elif toggle_direction == 'northwest':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/northwest_arrow.png',
+                                                ('turn in ' + str(org_distance) + ' m'))
+                        elif toggle_direction == 'right':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/right_arrow.png',
+                                                ('turn in ' + str(org_distance) + ' m'))
+                        elif toggle_direction == 'left':
+                            show_dir_image_once('/home/pi/smart_glass-master/Images/left_arrow.png',
+                                                ('turn in ' + str(org_distance) + ' m'))
 
 
                     else:
@@ -380,11 +418,12 @@ def location_smart():
 
             else:
 
-                show_dir_image_once('/home/pi/smart_glass-master/Images/straight_arrow.png',('Go ' + str(org_distance) + ' m'))
-            
+                show_dir_image_once('/home/pi/smart_glass-master/Images/straight_arrow.png',
+                                    ('Go ' + str(org_distance) + ' m'))
+
             if GPIO.input(cn2) == 0:
                 text_splitter(go_direction)
-        
+
             if GPIO.input(cn3) == 0:
                 break
 
@@ -397,14 +436,28 @@ def main():
     opener = False
     try:
         while True:
-            #button_next = GPIO.input(cn1)
-            #button_ok = GPIO.input(cn2)
-            #button_back = GPIO.input(cn3)
+            # button_next = GPIO.input(cn1)
+            # button_ok = GPIO.input(cn2)
+            # button_back = GPIO.input(cn3)
 
             clocky()
+            show_image('/home/pi/smart_glass-master/Images/weather.png')
+            if opener == True:
+                weather_req()
+                opener = False
+            else:
+                initiate_gif('/home/pi/smart_glass-master/Images/weather2rec.gif')
+
+            show_image('/home/pi/smart_glass-master/Images/recorder.png')
+            if opener == True:
+                rec_initiate()
+                opener = False
+            else:
+                initiate_gif('/home/pi/smart_glass-master/Images/rec2cam.gif')
+
             show_image('/home/pi/smart_glass-master/Images/check_cam.png')
             if opener == True:
-                camera_inititate()
+                camera_initiate()
                 opener = False
             else:
                 initiate_gif('/home/pi/smart_glass-master/Images/cam2findwho.gif')
@@ -420,9 +473,10 @@ def main():
             if opener == True:
                 location_smart()
                 opener = False
-    
+
     except KeyboardInterrupt:
-         GPIO.cleanup()
+        GPIO.cleanup()
+
 
 if __name__ == "__main__":
     try:
