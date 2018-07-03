@@ -1,6 +1,6 @@
 import os.path
 from demo_opts import get_device
-from PIL import Image, ImageSequence
+from PIL import Image, ImageSequence , ImageFont
 from luma.core.sprite_system import framerate_regulator
 import RPi.GPIO as GPIO
 import picamera
@@ -136,7 +136,10 @@ def initiate_gif(img_path):
 
 def weather_req():
     from firebase import firebase
-    # Google Maps Ddirections API endpoint
+    font_path = os.path.abspath(os.path.join(os.path.dirname(__file__),
+                            'fonts', 'C&C Red Alert [INET].ttf'))
+    font = ImageFont.truetype(font_path, 21)
+    # Google Maps Ddirections API endpoin
     endpoint = 'http://api.openweathermap.org/data/2.5/forecast?'
     api_key = 'e33c84cc9eb1157c533611a494f638a3'
     firebase = firebase.FirebaseApplication('https://smartglass-e01ec.firebaseio.com/', None)
@@ -155,13 +158,11 @@ def weather_req():
     temp_c = current_temp - 273.15
     temp_c_str = str(int(temp_c)) + '°C'
     descript_place = weather['list'][0]['weather'][0]['main']
-    img = imread('/home/pi/smart_glass-master/Images/straight_arrow.png')
-    putText(img, descript_place , (40, 13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
-    putText(img, temp_c_str , (49, 45), FONT_HERSHEY_COMPLEX, 0.60, (0, 255, 0))
-    imwrite('0.png', img)
-    photo = Image.open('/home/pi/smart_glass-master/0.png')
+    
     while True:
-        device.display(photo.convert(device.mode))
+        with canvas(device) as draw:
+            draw.text((40,0), text=descript_place, font=font, fill="white")
+            draw.text((49,40), text=temp_c_str, font=font, fill="white") 
         if GPIO.input(cn3) == 0:
             break
 
@@ -484,4 +485,5 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         pass
+
 
