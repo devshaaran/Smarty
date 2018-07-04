@@ -10,17 +10,18 @@ import com.google.android.gms.location.*
 import android.widget.Toast
 import android.provider.Settings
 import com.google.android.gms.location.LocationSettingsStatusCodes
-import android.content.IntentSender
 import android.util.Log
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.common.api.ApiException
 import android.support.design.widget.Snackbar;
-import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.support.v4.app.ActivityCompat
 import android.view.View
 import android.app.Activity
+import android.app.AlertDialog
+import android.content.*
+import android.text.TextUtils
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException
 import com.google.android.gms.common.GooglePlayServicesRepairableException
 import com.google.android.gms.location.places.ui.PlacePicker
@@ -38,6 +39,9 @@ class MainActivity : AppCompatActivity() {
     private val UPDATE_INTERVAL_IN_MILLISECONDS: Long = 1000
     private val FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = UPDATE_INTERVAL_IN_MILLISECONDS / 2
     private val PLACE_PICKER_REQUEST = 123
+    private val ENABLED_NOTIFICATION_LISTENERS = "enabled_notification_listeners"
+    private val ACTION_NOTIFICATION_LISTENER_SETTINGS = "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"
+
 
     private lateinit var mFusedLocationClient: FusedLocationProviderClient
     private lateinit var mSettingsClient: SettingsClient
@@ -86,6 +90,45 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+
+        if (!isNotificationServiceEnabled()) {
+            val enableNotificationListenerAlertDialog = buildNotificationServiceAlertDialog()
+            enableNotificationListenerAlertDialog.show()
+        }
+
+//        val notificationBroadcastReceiver = NotificationBroadcastReceiver()
+//        val intentFilter = IntentFilter()
+//        intentFilter.addAction("com.dscvit.smartglasscompanion.")
+//        registerReceiver(notificationBroadcastReceiver, intentFilter)
+
+        this.startService(Intent(this, NotificationListenerFirebase::class.java))
+    }
+
+    private fun buildNotificationServiceAlertDialog(): AlertDialog {
+        val alertDialogBuilder = AlertDialog.Builder(this)
+        alertDialogBuilder.setTitle("Notification Listener Service")
+        alertDialogBuilder.setMessage("For the the app. to work you need to enable the Notification Listener Service. Enable it now?")
+        alertDialogBuilder.setPositiveButton("Yes") { dialog, id -> startActivity(Intent(ACTION_NOTIFICATION_LISTENER_SETTINGS)) }
+        alertDialogBuilder.setNegativeButton("No") { dialog, id -> }
+        return alertDialogBuilder.create()
+    }
+
+    private fun isNotificationServiceEnabled(): Boolean {
+        val pkgName = packageName
+        val flat = Settings.Secure.getString(contentResolver,
+                ENABLED_NOTIFICATION_LISTENERS)
+        if (!TextUtils.isEmpty(flat)) {
+            val names = flat.split(":".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+            for (i in names.indices) {
+                val cn = ComponentName.unflattenFromString(names[i])
+                if (cn != null) {
+                    if (TextUtils.equals(pkgName, cn.packageName)) {
+                        return true
+                    }
+                }
+            }
+        }
+        return false
     }
 
     override fun onResume() {
@@ -95,7 +138,7 @@ class MainActivity : AppCompatActivity() {
         } else if (!checkPermissions()) {
             requestPermissions()
         }
-        updateFirebase()
+        updateLocationInFirebase()
     }
 
     override fun onPause() {
@@ -108,9 +151,9 @@ class MainActivity : AppCompatActivity() {
             return
         }
         mFusedLocationClient.removeLocationUpdates(mLocationCallback)
-                .addOnCompleteListener(this, {
+                .addOnCompleteListener(this) {
                     mRequestingLocationUpdates = false
-                })
+                }
     }
 
     @SuppressLint("MissingPermission")
@@ -118,7 +161,7 @@ class MainActivity : AppCompatActivity() {
         mSettingsClient.checkLocationSettings(mLocationSettingsRequest)
                 .addOnSuccessListener(this, {
                     mFusedLocationClient.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper())
-                    updateFirebase()
+                    updateLocationInFirebase()
                 })
                 .addOnFailureListener(this, { e ->
                     val statusCode = (e as ApiException).statusCode
@@ -162,12 +205,12 @@ class MainActivity : AppCompatActivity() {
                 super.onLocationResult(locationResult)
 
                 mCurrentLocation = locationResult?.lastLocation
-                updateFirebase()
+                updateLocationInFirebase()
             }
         }
     }
 
-    private fun updateFirebase() {
+    private fun updateLocationInFirebase() {
         text_location.text = "lat : ${mCurrentLocation?.latitude}, lng : ${mCurrentLocation?.longitude}"
         mDbChild.child("latitude").setValue(mCurrentLocation?.latitude)
         mDbChild.child("longitude").setValue(mCurrentLocation?.longitude)
@@ -236,7 +279,7 @@ class MainActivity : AppCompatActivity() {
                 Activity.RESULT_CANCELED -> {
                     Log.i(TAG, "User chose not to make required location settings changes.")
                     mRequestingLocationUpdates = false
-                    updateFirebase()
+                    updateLocationInFirebase()
                 }
             }
             PLACE_PICKER_REQUEST -> {
