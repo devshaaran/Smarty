@@ -295,7 +295,8 @@ def translate_text(target, text):
 
     #print(u'Text: {}'.format(result['input']))
     transer = result['translatedText']
-    print(u'Translation: {}'.format(transer))
+    trans_text_returned = u'Translation: {}'.format(transer)
+    return trans_text_returned
 
     #print(u'Detected source language: {}'.format(result['detectedSourceLanguage']))
     # [END translate_translate_text]
@@ -314,10 +315,45 @@ def detect_text(path):
     texts = response.text_annotations
     print('Texts:')
     tog = texts[0].description
-    print(tog)
-    translate_text('en',tog)
+    received_translation = translate_text('en',tog)
+    text_splitter(received_translation)
 
+    while (GPIO.input(cn3) == 1):
+        continue
 
+def trans_initiate():
+    cameraResolution = (1024, 768)
+    displayTime = 3
+
+    # create the in-memory stream
+    stream = io.BytesIO()
+
+    with picamera.PiCamera() as camera:
+
+        # set camera resolution
+        camera.resolution = cameraResolution
+        # print("Starting camera preview...")
+
+        while True:
+
+            camera.start_preview()
+            if (GPIO.input(cn2) == 0):
+                camera.capture(stream, format='jpeg', resize=device.size)
+                camera.close()
+                # "rewind" the stream to the beginning so we can read its content
+                stream.seek(0)
+                # print("Displaying photo for {0} seconds...".format(displayTime))
+                # open photo
+                photo = Image.open(stream)
+                photo.save('home/' + 'transy' + '.jpg')
+                # display on screen for a few seconds
+                device.display(photo.convert(device.mode))
+                sleep(displayTime)
+                detect_text('home/transy.jpg')
+
+            if (GPIO.input(cn3) == 0):
+                camera.close()
+                break
 
 def rec_initiate():
     virtual = viewport(device, width=device.width, height=768)
@@ -500,6 +536,12 @@ def main():
             # button_back = GPIO.input(cn3)
 
             clocky()
+            show_image('/home/pi/smart_glass-master/Images/transl.png')
+            if opener == True:
+                trans_initiate()
+                opener = False
+            else:
+                initiate_gif('/home/pi/smart_glass-master/Images/transl2weather.gif')
             show_image('/home/pi/smart_glass-master/Images/weather.png')
             if opener == True:
                 weather_req()
@@ -543,5 +585,3 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         pass
-
-
