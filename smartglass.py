@@ -1,6 +1,6 @@
 import os.path
 from demo_opts import get_device
-from PIL import Image, ImageSequence , ImageFont
+from PIL import Image, ImageSequence, ImageFont
 from luma.core.sprite_system import framerate_regulator
 import RPi.GPIO as GPIO
 import picamera
@@ -90,7 +90,7 @@ def show_dir_image(path, texts):
 
 def show_dir_image_once(path, texts):
     img = imread(path)
-    putText(img, texts, (0,13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
+    putText(img, texts, (0, 13), FONT_HERSHEY_COMPLEX, 0.52, (0, 255, 0))
     imwrite('0.png', img)
     photo = Image.open('/home/pi/smart_glass-master/0.png')
     device.display(photo.convert(device.mode))
@@ -134,10 +134,11 @@ def initiate_gif(img_path):
                 device.display(background.convert(device.mode))
                 print(count)
 
+
 def weather_req():
     from firebase import firebase
     font_path = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                            'fonts', 'C&C Red Alert [INET].ttf'))
+                                             'fonts', 'C&C Red Alert [INET].ttf'))
     font = ImageFont.truetype(font_path, 21)
     # Google Maps Ddirections API endpoin
     endpoint = 'http://api.openweathermap.org/data/2.5/forecast?'
@@ -158,13 +159,14 @@ def weather_req():
     temp_c = current_temp - 273.15
     temp_c_str = str(int(temp_c)) + '°C'
     descript_place = weather['list'][0]['weather'][0]['main']
-    
+
     while True:
         with canvas(device) as draw:
-            draw.text((40,0), text=descript_place, font=font, fill="white")
-            draw.text((49,40), text=temp_c_str, font=font, fill="white") 
+            draw.text((40, 0), text=descript_place, font=font, fill="white")
+            draw.text((49, 40), text=temp_c_str, font=font, fill="white")
         if GPIO.input(cn3) == 0:
             break
+
 
 def show_image(img_path):
     photo = Image.open(img_path)
@@ -172,6 +174,8 @@ def show_image(img_path):
     # display on screen for a few seconds
     while True:
         device.display(photo.convert(device.mode))
+
+
         if GPIO.input(cn1) == 0:
             break
         if GPIO.input(cn2) == 0:
@@ -263,6 +267,9 @@ def findwho_initiate():
             if (GPIO.input(cn3) == 0):
                 break
 
+def translator_s():
+
+
 def rec_initiate():
     virtual = viewport(device, width=device.width, height=768)
 
@@ -273,6 +280,7 @@ def rec_initiate():
     if GPIO.input(cn3) == 1:
         while (GPIO.input(cn3) == 1):
             continue
+
 
 def location_smart():
     from firebase import firebase
@@ -340,13 +348,14 @@ def location_smart():
 
             main_way_list = go_direction.split('(')
             main_way = main_way_list[0]
+            main_way_list1 = go_direction_1.split('(')
+            main_way1 = main_way_list1[0]
 
             directions = ['north', 'northeast', 'northwest', 'straight', 'left', 'right']
 
             if int(org_distance) < 60:
                 goway = []
-
-                for d in main_way:
+                for d in main_way1:
                     for e in directions:
                         if d.lower() == e:
                             goway.append(d)
@@ -388,15 +397,15 @@ def location_smart():
 
                 else:
                     if len(first_step) > 1:
-                        toggle_direction = goway[1]
+                        toggle_direction = goway[0]
 
                         if toggle_direction == 'north' or toggle_direction == 'straight':
                             show_dir_image_once('/home/pi/smart_glass-master/Images/straight_arrow.png',
                                                 ('turn in ' + str(org_distance) + ' m'))
-                        elif toggle_direction == 'northeast':
+                        elif toggle_direction == 'northeast' or 'slight left' in go_direction_1 or 'slightly left' in go_direction_1 :
                             show_dir_image_once('/home/pi/smart_glass-master/Images/northeast_arrow.png',
                                                 ('turn in ' + str(org_distance) + ' m'))
-                        elif toggle_direction == 'northwest':
+                        elif toggle_direction == 'northwest' or 'slight right' in go_direction_1 or 'slightly right' in go_direction_1:
                             show_dir_image_once('/home/pi/smart_glass-master/Images/northwest_arrow.png',
                                                 ('turn in ' + str(org_distance) + ' m'))
                         elif toggle_direction == 'right':
