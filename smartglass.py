@@ -17,6 +17,14 @@ from time import sleep
 from cv2 import imread, putText, imwrite, FONT_HERSHEY_COMPLEX
 import math
 import datetime
+import argparse
+from google.cloud import translate
+from google.cloud import vision
+import six
+import re
+from google.cloud import storage
+from google.protobuf import json_format
+from os import environ
 
 cn1 = 33
 cn2 = 35
@@ -29,6 +37,7 @@ GPIO.setup(cn1, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(cn2, GPIO.IN, GPIO.PUD_UP)
 GPIO.setup(cn3, GPIO.IN, GPIO.PUD_UP)
 
+environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/your/file/here.json"
 
 def posn(angle, arm_length):
     dx = int(math.cos(math.radians(angle)) * arm_length)
