@@ -267,7 +267,47 @@ def findwho_initiate():
             if (GPIO.input(cn3) == 0):
                 break
 
-def translator_s():
+
+def translate_text(target, text):
+    # [START translate_translate_text]
+    """Translates text into the target language.
+    Target must be an ISO 639-1 language code.
+    See https://g.co/cloud/translate/v2/translate-reference#supported_languages
+    """
+    translate_client = translate.Client()
+
+    if isinstance(text, six.binary_type):
+        text = text.decode('utf-8')
+
+    # Text can also be a sequence of strings, in which case this method
+    # will return a sequence of results for each text.
+    result = translate_client.translate(
+        text, target_language=target)
+
+    #print(u'Text: {}'.format(result['input']))
+    transer = result['translatedText']
+    print(u'Translation: {}'.format(transer))
+
+    #print(u'Detected source language: {}'.format(result['detectedSourceLanguage']))
+    # [END translate_translate_text]
+
+def detect_text(path):
+
+    """Detects text in the file."""
+    client = vision.ImageAnnotatorClient()
+
+    with io.open(path, 'rb') as image_file:
+        content = image_file.read()
+
+    image = vision.types.Image(content=content)
+
+    response = client.text_detection(image=image)
+    texts = response.text_annotations
+    print('Texts:')
+    tog = texts[0].description
+    print(tog)
+    translate_text('en',tog)
+
 
 
 def rec_initiate():
