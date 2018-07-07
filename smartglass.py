@@ -151,7 +151,7 @@ def weather_req():
     font = ImageFont.truetype(font_path, 21)
     # Google Maps Ddirections API endpoin
     endpoint = 'http://api.openweathermap.org/data/2.5/forecast?'
-    api_key = 'e33c84cc9eb1157c533611a494f638a3'
+    api_key = 'Your key'
     firebase = firebase.FirebaseApplication('https://smartglass-e01ec.firebaseio.com/', None)
     whole_direct = firebase.get('/directions', None)
     latt = whole_direct['latitude']
@@ -371,7 +371,7 @@ def location_smart():
     from firebase import firebase
     # Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-    api_key = 'AIzaSyAu42C9VNekg6jhnEIg4dipqwmWowRHlCM'
+    api_key = 'Your keys'
     firebase = firebase.FirebaseApplication('https://smartglass-e01ec.firebaseio.com/', None)
     virtual = viewport(device, width=device.width, height=768)
 
