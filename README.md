@@ -33,7 +33,7 @@ Python 3 with following libraries installed :
 
 * Download the stl files and 3D print them for assembly.
 
-* 120mm convex lens 
+* 60mm magnification lens
 
 * Mirror
 
@@ -70,3 +70,5 @@ Download and place the codes in this repository to your python destination ( `ro
 * But, before that lets add this to the startup file so that this runs on boot firstly.
 
 * Once everything is setup its time to start our smarty for the first time 
+
+
