@@ -25,6 +25,7 @@ import re
 from google.cloud import storage
 from google.protobuf import json_format
 from os import environ
+import multiprocessing
 
 cn1 = 33
 cn2 = 35
