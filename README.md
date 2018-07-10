@@ -55,6 +55,30 @@ Python 3 with following libraries installed :
 
 * RPi Camera (either V1 or V2)
 
+## Current Features: 
+
+* `OCR` (Translates unknown languages into a known form in a image)
+
+* `Real time speech translation` (Translates speech in Real time to target language)
+
+* Aid for hearing `Impaired people` by displaying the words used by the other speaker
+
+* `Camera` with recording and photo snapping capabilities
+
+* `Find who` a special add on to find the person whom you are talking but don't know just through a single click
+
+* `Bone conduction Technology` for hearing songs and your AI assistant on the go.. and also most importantly have awareness about your surroundings.
+
+* `AI Speech Assistant` just say Hey Smarty ! to awake your assistant and do wonders - (Under development)
+
+* `Navigation` Type the place you want to go in your app and get real-time support for choosing the right direction
+
+* A totally `minimalistic display` just the right way to not hurt your eyes
+
+* Special `Hologramic technology` used for display just to make sure your eyes don't strain
+
+* Get alerted for change in `weather`
+
 ## Personal library Note :
 
 Download and place the codes in this repository to your python destination ( `routes_api_check` )
