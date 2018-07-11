@@ -4,63 +4,63 @@ ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/ap
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-45:12
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-45:12
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-45:12
-MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:2:1-6:12
-MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c1a82c2abac4a691efb5690e4b5aeab0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/0525db5b53aa4c02fe06ef092c2c44b7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ed6d3895f1d6941516cbea14c3dc4be9/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/4e421798355480119f88843b10e77229/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/524e60e8f9e303649ff3043877561a7f/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/1c10913f300ed840375dcb1f718b2c5c/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:17:1-54:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/ee1c0371c73ea8a4749dcb5cc20ca7e4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/ed205d8bf47f1add201ce2548b6471d5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/1ea1420490957f371b3108f9f1656795/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/0d7652c49efba1acb3874211188f1f59/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/de3fa09ea896c53554a07f4cf65bd5f7/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/155a1b7a9aef0316633bbdd8610ff343/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7ffa65f12b6e065ce6fabede10646764/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/cf04ec6d1b1ee9a319b4b3a6b0ee8c74/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/e6634345e84991d343d220b2e2f53046/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/875684a5cba26e18dbfd1e08a55e6a19/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/20546cced4b0d673b39e174903c7c11e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/63be00ce50d93cdaa32cef8bb64bd693/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/8c3435b259d2de6661f3971d96780673/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/913cef362815ff613d3998e9e94e7540/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/4af3b78d3b5dc7389952b5a8da321ddc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/8f2ddf5550eaf5a38aa3be66e71d404f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/041e363df0338702791206f44d24e5ee/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/e73cb2c9b6a346f79033e8e50c636142/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/dd42e27506653f5cc5a20defc515d4e5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/bc6875363ffe7c071f6124748a5dbf51/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/6b527506abc5fbcbd745cf71916f449f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/a90c7372ca774c465a0525c1b24c5c1a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4857c8a0b4d167cdbd52b47fdd7158d2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/e68738ecce210255f07ae06c350a788a/AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/62b870dd300e880b439bef05d5475559/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ad650e41e816c858b4589b7290665dc3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/f1f346cc4f7539c2f534ae963f1bb1c3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/63ecbae82f857c9c32694ac1a09cb57d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/50dec1c48ce755b9c071e263fb57d90f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/20dddc836efb588c9e9a1792368aac6b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/b254cb3a4ae4a0962e35b359985acd05/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/df93df0487e0ddf4f681e4dbfe1fe42a/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/7fefc272dc8e15b2ff011f27964a45dd/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/526f50c5aef63c2102d5a35d46e51c6d/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/3961a87d6a85c91f94b7ab0d44641e25/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/39d16758a2e41e507384c858bc6af934/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/c89a9b02a373e88590b517e9453a41e3/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/24aba7dde3b943e3d1ff78056efba44d/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/21dba7ae5ddcd4c98687bf229aff73e9/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/13c9b890d065995f00486b0691a2ed60/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/dacec2366f28d3cc380b079fe3dd0564/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/f01da4f23a545c2de22d1109e39b9ef7/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/22358c707e2f38d2e8d8f12d96172e7a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/f88a64b9336e48d5ed8be3895316aa26/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/4863aba9b24cc08337ede22432880eea/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/4282d3e3dfbbe5be79925567c7cc4d90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/735d9fe701cac1e6f5ba8bb1a050c1dc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/ba101f71e09223b6997c7d0f32a27360/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/d2cf361f1181e30a7f05d5eaaab6772d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/b8425bca805e2b7a8977ea34def08920/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:17:1-54:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/22ed5185de097ffdaeab8ee96bb3ba92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/fe6eee11ef1d3c375b9b92af9a95f1fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/0db19ced27e16e3562e64ea4118451a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/8dc0d738d12f5479a0e0fcbfd63e83c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/36ca646f7f83a212fe89e08afabcd66f/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09f9deeee97acb6e6b69f9a4e043b04b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/afae54f7da0bd61118790dc3ef265c79/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d8ade5256c6caade8fc44bd8da3b0784/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/d14a8c02dc698e1ff7dc69a6ad765fe7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/fc12da204e1ff7fc2dae67f958b87424/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/8f58af4450aec3ec739eb36f87a91bbd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/645cf04556dfe480aac3e29bc00bb4c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/5ae9ff55112f599ab177abdfd2468846/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/20b6f531f75de094fca032317115098d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/18f2c7cad1e78143c39161dd0efb9a40/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/4a2b0cd751bc4ab13576460e2f733ad2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/311eeb1e94a0d626c78db6ca9e2efe5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/fc3cb5f3658905bf777e499466ec6e92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/9e643efa9527672d5a52e6b1f4f62ab1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/d44aa84832f2a5b8f5e7184d18cc6d84/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/338505220b28737e255ee776b1fa2ff2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/8c090a3a028875dc4d651636461b4411/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d9e220d1c0203dc7ee8f67b0b5e645db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/8865e673f203d57870012cbdb23d1aa0/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/650519f2da34829ecdf3600d57f06da0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/047c388ba4118ddcccb92eded7178705/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/16bd518de9da1f0e21c6986898eb85df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/49c5b89ae0fb7ef36ad1f28a2e132438/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/c4b75c1c30e328bd47d9e0f51b215fff/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/832de3fe1674859054795af9c0277e70/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/9ff77562eed117f3c4632e5efefee846/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/1e5b02eec4a32de385f2b3276fbe7015/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/9984f5935ebafba27a1644a700ad2dfd/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/9e2fdc95878929d8eb5d56d03efe5df7/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/1dde08051b5357bf2af0c7628aaf5192/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/58243e6b61fe4871a22cbc1b5a0f6c56/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/1082624a51b2a86af62e3c7a8e128a17/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/d157bb29edfe11c2227a787653832d1f/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/87ca1d60f0388d54a407908856e9ce07/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/93b5115f152679c92890259c1f19d892/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/1a9c9e7008fa1f49eb40f2cfb5a74a34/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/24579a0e885f18194fd6bd365866cd9b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/a5465a9203b8e24e3f53a52ae735c0c0/AndroidManifest.xml:2:1-6:12
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-45:12
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-45:12
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:2:1-45:12
@@ -84,78 +84,78 @@ ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/ap
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
 ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:6:22-64
 application
 ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:8:5-43:19
-MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c1a82c2abac4a691efb5690e4b5aeab0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c1a82c2abac4a691efb5690e4b5aeab0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ed6d3895f1d6941516cbea14c3dc4be9/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ed6d3895f1d6941516cbea14c3dc4be9/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/524e60e8f9e303649ff3043877561a7f/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/524e60e8f9e303649ff3043877561a7f/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/1c10913f300ed840375dcb1f718b2c5c/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/1c10913f300ed840375dcb1f718b2c5c/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:27:5-52:19
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:27:5-52:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:27:5-38:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:27:5-38:19
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/155a1b7a9aef0316633bbdd8610ff343/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/155a1b7a9aef0316633bbdd8610ff343/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7ffa65f12b6e065ce6fabede10646764/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7ffa65f12b6e065ce6fabede10646764/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/cf04ec6d1b1ee9a319b4b3a6b0ee8c74/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/cf04ec6d1b1ee9a319b4b3a6b0ee8c74/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/bc6875363ffe7c071f6124748a5dbf51/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/bc6875363ffe7c071f6124748a5dbf51/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/e68738ecce210255f07ae06c350a788a/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/e68738ecce210255f07ae06c350a788a/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/df93df0487e0ddf4f681e4dbfe1fe42a/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/df93df0487e0ddf4f681e4dbfe1fe42a/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/7fefc272dc8e15b2ff011f27964a45dd/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/7fefc272dc8e15b2ff011f27964a45dd/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/526f50c5aef63c2102d5a35d46e51c6d/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/526f50c5aef63c2102d5a35d46e51c6d/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/3961a87d6a85c91f94b7ab0d44641e25/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/3961a87d6a85c91f94b7ab0d44641e25/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/39d16758a2e41e507384c858bc6af934/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/39d16758a2e41e507384c858bc6af934/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/c89a9b02a373e88590b517e9453a41e3/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/c89a9b02a373e88590b517e9453a41e3/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/24aba7dde3b943e3d1ff78056efba44d/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/24aba7dde3b943e3d1ff78056efba44d/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/21dba7ae5ddcd4c98687bf229aff73e9/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/21dba7ae5ddcd4c98687bf229aff73e9/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/13c9b890d065995f00486b0691a2ed60/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/13c9b890d065995f00486b0691a2ed60/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/dacec2366f28d3cc380b079fe3dd0564/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/dacec2366f28d3cc380b079fe3dd0564/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/f01da4f23a545c2de22d1109e39b9ef7/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/f01da4f23a545c2de22d1109e39b9ef7/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/22358c707e2f38d2e8d8f12d96172e7a/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/22358c707e2f38d2e8d8f12d96172e7a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/f88a64b9336e48d5ed8be3895316aa26/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/f88a64b9336e48d5ed8be3895316aa26/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/4863aba9b24cc08337ede22432880eea/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/4863aba9b24cc08337ede22432880eea/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/735d9fe701cac1e6f5ba8bb1a050c1dc/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/735d9fe701cac1e6f5ba8bb1a050c1dc/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/d2cf361f1181e30a7f05d5eaaab6772d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/d2cf361f1181e30a7f05d5eaaab6772d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/b8425bca805e2b7a8977ea34def08920/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/b8425bca805e2b7a8977ea34def08920/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09f9deeee97acb6e6b69f9a4e043b04b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09f9deeee97acb6e6b69f9a4e043b04b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/afae54f7da0bd61118790dc3ef265c79/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/afae54f7da0bd61118790dc3ef265c79/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d8ade5256c6caade8fc44bd8da3b0784/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d8ade5256c6caade8fc44bd8da3b0784/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/d44aa84832f2a5b8f5e7184d18cc6d84/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/d44aa84832f2a5b8f5e7184d18cc6d84/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/8865e673f203d57870012cbdb23d1aa0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/8865e673f203d57870012cbdb23d1aa0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/1e5b02eec4a32de385f2b3276fbe7015/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/1e5b02eec4a32de385f2b3276fbe7015/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/9984f5935ebafba27a1644a700ad2dfd/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/9984f5935ebafba27a1644a700ad2dfd/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/9e2fdc95878929d8eb5d56d03efe5df7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/9e2fdc95878929d8eb5d56d03efe5df7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/1dde08051b5357bf2af0c7628aaf5192/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/1dde08051b5357bf2af0c7628aaf5192/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/58243e6b61fe4871a22cbc1b5a0f6c56/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/58243e6b61fe4871a22cbc1b5a0f6c56/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/1082624a51b2a86af62e3c7a8e128a17/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/1082624a51b2a86af62e3c7a8e128a17/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/d157bb29edfe11c2227a787653832d1f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/d157bb29edfe11c2227a787653832d1f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/87ca1d60f0388d54a407908856e9ce07/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/87ca1d60f0388d54a407908856e9ce07/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/93b5115f152679c92890259c1f19d892/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/93b5115f152679c92890259c1f19d892/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/1a9c9e7008fa1f49eb40f2cfb5a74a34/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/1a9c9e7008fa1f49eb40f2cfb5a74a34/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/24579a0e885f18194fd6bd365866cd9b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/24579a0e885f18194fd6bd365866cd9b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/a5465a9203b8e24e3f53a52ae735c0c0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/a5465a9203b8e24e3f53a52ae735c0c0/AndroidManifest.xml:5:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/bc6875363ffe7c071f6124748a5dbf51/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/d44aa84832f2a5b8f5e7184d18cc6d84/AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
@@ -208,124 +208,124 @@ uses-sdk
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/2e81678be056930178c1e56cbdc832e4/AndroidManifest.xml:4:5-43
-MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c1a82c2abac4a691efb5690e4b5aeab0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/c1a82c2abac4a691efb5690e4b5aeab0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/0525db5b53aa4c02fe06ef092c2c44b7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/0525db5b53aa4c02fe06ef092c2c44b7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ed6d3895f1d6941516cbea14c3dc4be9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/ed6d3895f1d6941516cbea14c3dc4be9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/4e421798355480119f88843b10e77229/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/4e421798355480119f88843b10e77229/AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/524e60e8f9e303649ff3043877561a7f/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/524e60e8f9e303649ff3043877561a7f/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/1c10913f300ed840375dcb1f718b2c5c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/1c10913f300ed840375dcb1f718b2c5c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/ee1c0371c73ea8a4749dcb5cc20ca7e4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/ee1c0371c73ea8a4749dcb5cc20ca7e4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/ed205d8bf47f1add201ce2548b6471d5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/ed205d8bf47f1add201ce2548b6471d5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/1ea1420490957f371b3108f9f1656795/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/1ea1420490957f371b3108f9f1656795/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/0d7652c49efba1acb3874211188f1f59/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/0d7652c49efba1acb3874211188f1f59/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/de3fa09ea896c53554a07f4cf65bd5f7/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/de3fa09ea896c53554a07f4cf65bd5f7/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/155a1b7a9aef0316633bbdd8610ff343/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/155a1b7a9aef0316633bbdd8610ff343/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7ffa65f12b6e065ce6fabede10646764/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7ffa65f12b6e065ce6fabede10646764/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/cf04ec6d1b1ee9a319b4b3a6b0ee8c74/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/cf04ec6d1b1ee9a319b4b3a6b0ee8c74/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/e6634345e84991d343d220b2e2f53046/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/e6634345e84991d343d220b2e2f53046/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/875684a5cba26e18dbfd1e08a55e6a19/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/875684a5cba26e18dbfd1e08a55e6a19/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/20546cced4b0d673b39e174903c7c11e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/20546cced4b0d673b39e174903c7c11e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/63be00ce50d93cdaa32cef8bb64bd693/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/63be00ce50d93cdaa32cef8bb64bd693/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/8c3435b259d2de6661f3971d96780673/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/8c3435b259d2de6661f3971d96780673/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/913cef362815ff613d3998e9e94e7540/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/913cef362815ff613d3998e9e94e7540/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/4af3b78d3b5dc7389952b5a8da321ddc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/4af3b78d3b5dc7389952b5a8da321ddc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/8f2ddf5550eaf5a38aa3be66e71d404f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/8f2ddf5550eaf5a38aa3be66e71d404f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/041e363df0338702791206f44d24e5ee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/041e363df0338702791206f44d24e5ee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/e73cb2c9b6a346f79033e8e50c636142/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/e73cb2c9b6a346f79033e8e50c636142/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/dd42e27506653f5cc5a20defc515d4e5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/dd42e27506653f5cc5a20defc515d4e5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/bc6875363ffe7c071f6124748a5dbf51/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/bc6875363ffe7c071f6124748a5dbf51/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/6b527506abc5fbcbd745cf71916f449f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/6b527506abc5fbcbd745cf71916f449f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/a90c7372ca774c465a0525c1b24c5c1a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/a90c7372ca774c465a0525c1b24c5c1a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4857c8a0b4d167cdbd52b47fdd7158d2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4857c8a0b4d167cdbd52b47fdd7158d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/e68738ecce210255f07ae06c350a788a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/e68738ecce210255f07ae06c350a788a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/62b870dd300e880b439bef05d5475559/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/62b870dd300e880b439bef05d5475559/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ad650e41e816c858b4589b7290665dc3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ad650e41e816c858b4589b7290665dc3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/f1f346cc4f7539c2f534ae963f1bb1c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/f1f346cc4f7539c2f534ae963f1bb1c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/63ecbae82f857c9c32694ac1a09cb57d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/63ecbae82f857c9c32694ac1a09cb57d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/50dec1c48ce755b9c071e263fb57d90f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/50dec1c48ce755b9c071e263fb57d90f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/20dddc836efb588c9e9a1792368aac6b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/20dddc836efb588c9e9a1792368aac6b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/b254cb3a4ae4a0962e35b359985acd05/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/b254cb3a4ae4a0962e35b359985acd05/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/df93df0487e0ddf4f681e4dbfe1fe42a/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/df93df0487e0ddf4f681e4dbfe1fe42a/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/7fefc272dc8e15b2ff011f27964a45dd/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/7fefc272dc8e15b2ff011f27964a45dd/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/526f50c5aef63c2102d5a35d46e51c6d/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/526f50c5aef63c2102d5a35d46e51c6d/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/3961a87d6a85c91f94b7ab0d44641e25/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/3961a87d6a85c91f94b7ab0d44641e25/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/39d16758a2e41e507384c858bc6af934/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/39d16758a2e41e507384c858bc6af934/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/c89a9b02a373e88590b517e9453a41e3/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/c89a9b02a373e88590b517e9453a41e3/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/24aba7dde3b943e3d1ff78056efba44d/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/24aba7dde3b943e3d1ff78056efba44d/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/21dba7ae5ddcd4c98687bf229aff73e9/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/21dba7ae5ddcd4c98687bf229aff73e9/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/13c9b890d065995f00486b0691a2ed60/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/13c9b890d065995f00486b0691a2ed60/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/dacec2366f28d3cc380b079fe3dd0564/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/dacec2366f28d3cc380b079fe3dd0564/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/f01da4f23a545c2de22d1109e39b9ef7/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/f01da4f23a545c2de22d1109e39b9ef7/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/22358c707e2f38d2e8d8f12d96172e7a/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/22358c707e2f38d2e8d8f12d96172e7a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/f88a64b9336e48d5ed8be3895316aa26/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/f88a64b9336e48d5ed8be3895316aa26/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/4863aba9b24cc08337ede22432880eea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/design-28.0.0-alpha3.aar/4863aba9b24cc08337ede22432880eea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/4282d3e3dfbbe5be79925567c7cc4d90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha3.aar/4282d3e3dfbbe5be79925567c7cc4d90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/735d9fe701cac1e6f5ba8bb1a050c1dc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/735d9fe701cac1e6f5ba8bb1a050c1dc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/ba101f71e09223b6997c7d0f32a27360/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/ba101f71e09223b6997c7d0f32a27360/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/d2cf361f1181e30a7f05d5eaaab6772d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/d2cf361f1181e30a7f05d5eaaab6772d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/b8425bca805e2b7a8977ea34def08920/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/b8425bca805e2b7a8977ea34def08920/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/22ed5185de097ffdaeab8ee96bb3ba92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-alpha3.aar/22ed5185de097ffdaeab8ee96bb3ba92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/fe6eee11ef1d3c375b9b92af9a95f1fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-alpha3.aar/fe6eee11ef1d3c375b9b92af9a95f1fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/0db19ced27e16e3562e64ea4118451a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/transition-28.0.0-alpha3.aar/0db19ced27e16e3562e64ea4118451a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/8dc0d738d12f5479a0e0fcbfd63e83c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0-alpha3.aar/8dc0d738d12f5479a0e0fcbfd63e83c2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/36ca646f7f83a212fe89e08afabcd66f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/36ca646f7f83a212fe89e08afabcd66f/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09f9deeee97acb6e6b69f9a4e043b04b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/09f9deeee97acb6e6b69f9a4e043b04b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/afae54f7da0bd61118790dc3ef265c79/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/afae54f7da0bd61118790dc3ef265c79/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d8ade5256c6caade8fc44bd8da3b0784/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d8ade5256c6caade8fc44bd8da3b0784/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/d14a8c02dc698e1ff7dc69a6ad765fe7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-alpha3.aar/d14a8c02dc698e1ff7dc69a6ad765fe7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/fc12da204e1ff7fc2dae67f958b87424/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-alpha3.aar/fc12da204e1ff7fc2dae67f958b87424/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/8f58af4450aec3ec739eb36f87a91bbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-alpha3.aar/8f58af4450aec3ec739eb36f87a91bbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/645cf04556dfe480aac3e29bc00bb4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-alpha3.aar/645cf04556dfe480aac3e29bc00bb4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/5ae9ff55112f599ab177abdfd2468846/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-alpha3.aar/5ae9ff55112f599ab177abdfd2468846/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/20b6f531f75de094fca032317115098d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-alpha3.aar/20b6f531f75de094fca032317115098d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/18f2c7cad1e78143c39161dd0efb9a40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-alpha3.aar/18f2c7cad1e78143c39161dd0efb9a40/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/4a2b0cd751bc4ab13576460e2f733ad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-alpha3.aar/4a2b0cd751bc4ab13576460e2f733ad2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/311eeb1e94a0d626c78db6ca9e2efe5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-alpha3.aar/311eeb1e94a0d626c78db6ca9e2efe5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/fc3cb5f3658905bf777e499466ec6e92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-alpha3.aar/fc3cb5f3658905bf777e499466ec6e92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/9e643efa9527672d5a52e6b1f4f62ab1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-alpha3.aar/9e643efa9527672d5a52e6b1f4f62ab1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/d44aa84832f2a5b8f5e7184d18cc6d84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha3.aar/d44aa84832f2a5b8f5e7184d18cc6d84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/338505220b28737e255ee776b1fa2ff2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-alpha3.aar/338505220b28737e255ee776b1fa2ff2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/8c090a3a028875dc4d651636461b4411/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0-alpha3.aar/8c090a3a028875dc4d651636461b4411/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d9e220d1c0203dc7ee8f67b0b5e645db/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d9e220d1c0203dc7ee8f67b0b5e645db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/8865e673f203d57870012cbdb23d1aa0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-alpha3.aar/8865e673f203d57870012cbdb23d1aa0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/650519f2da34829ecdf3600d57f06da0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/650519f2da34829ecdf3600d57f06da0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/047c388ba4118ddcccb92eded7178705/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/047c388ba4118ddcccb92eded7178705/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/16bd518de9da1f0e21c6986898eb85df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-alpha3.aar/16bd518de9da1f0e21c6986898eb85df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/49c5b89ae0fb7ef36ad1f28a2e132438/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-alpha3.aar/49c5b89ae0fb7ef36ad1f28a2e132438/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/c4b75c1c30e328bd47d9e0f51b215fff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/print-28.0.0-alpha3.aar/c4b75c1c30e328bd47d9e0f51b215fff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/832de3fe1674859054795af9c0277e70/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/832de3fe1674859054795af9c0277e70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/9ff77562eed117f3c4632e5efefee846/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-alpha3] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-alpha3.aar/9ff77562eed117f3c4632e5efefee846/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/1e5b02eec4a32de385f2b3276fbe7015/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/1e5b02eec4a32de385f2b3276fbe7015/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/9984f5935ebafba27a1644a700ad2dfd/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/9984f5935ebafba27a1644a700ad2dfd/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/9e2fdc95878929d8eb5d56d03efe5df7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/9e2fdc95878929d8eb5d56d03efe5df7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/1dde08051b5357bf2af0c7628aaf5192/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/1dde08051b5357bf2af0c7628aaf5192/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/58243e6b61fe4871a22cbc1b5a0f6c56/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/58243e6b61fe4871a22cbc1b5a0f6c56/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/1082624a51b2a86af62e3c7a8e128a17/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/1082624a51b2a86af62e3c7a8e128a17/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/d157bb29edfe11c2227a787653832d1f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/d157bb29edfe11c2227a787653832d1f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/87ca1d60f0388d54a407908856e9ce07/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/87ca1d60f0388d54a407908856e9ce07/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/93b5115f152679c92890259c1f19d892/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/93b5115f152679c92890259c1f19d892/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/1a9c9e7008fa1f49eb40f2cfb5a74a34/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/1a9c9e7008fa1f49eb40f2cfb5a74a34/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/24579a0e885f18194fd6bd365866cd9b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/24579a0e885f18194fd6bd365866cd9b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/a5465a9203b8e24e3f53a52ae735c0c0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/a5465a9203b8e24e3f53a52ae735c0c0/AndroidManifest.xml:4:5-43
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/7ffa65f12b6e065ce6fabede10646764/AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:25.2.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/afae54f7da0bd61118790dc3ef265c79/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
@@ -335,158 +335,158 @@ INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion
 		ADDED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/minos.ai/AndroidStudioProjects/smart_glass/AndroidCompanion/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:23:5-79
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:24:22-76
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:24:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:25:22-65
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:25:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:28:9-32:20
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:28:9-32:20
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:28:9-32:20
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:28:9-32:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:30:13-35
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:30:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:29:13-85
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:29:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:33:9-41:20
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:33:9-41:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:35:13-35
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:35:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:36:13-36
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:36:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:37:13-69
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:37:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:34:13-100
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:34:13-100
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:38:13-40:29
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:38:13-40:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:39:17-79
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:39:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:39:25-76
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:39:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:43:9-46:40
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:34:9-37:40
-MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/867fa47b168a6afe9dbb387ee37d2c89/AndroidManifest.xml:34:9-37:40
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/225f8229b20e90976b44288347923ab0/AndroidManifest.xml:34:9-37:40
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:45:13-35
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:45:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:46:13-37
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:44:13-84
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:44:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:47:9-51:72
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:47:9-51:72
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:49:13-35
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:49:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:50:13-37
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:50:13-37
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:51:13-69
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:51:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/1847cdd4cef55c892cd85af21ec1b430/AndroidManifest.xml:48:13-87
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/0ec353dcfcd78c9b6351c9007ebd42cd/AndroidManifest.xml:48:13-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:26:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:29:9-63
 permission#com.dscvit.smartglasscompanion.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:29:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:32:22-76
 uses-permission#com.dscvit.smartglasscompanion.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:32:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:35:9-44:20
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:35:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:38:13-73
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:38:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:36:13-78
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:36:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:39:13-43:29
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.dscvit.smartglasscompanion
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:39:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:40:17-81
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:40:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:40:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:40:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:42:27-58
 category#com.dscvit.smartglasscompanion
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:42:27-58
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:51:13-77
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/52ba886ea63959a61fb249793f0e22ec/AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/0bb17a66ecb781e9fa549b85e4a343e9/AndroidManifest.xml:54:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:8:9-12:39
+ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:8:9-12:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:10:13-72
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:11:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:12:13-36
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:12:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/fa4b8be6085e67db6df2965e0a18a515/AndroidManifest.xml:9:13-77
+		ADDED from [com.google.firebase:firebase-common:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/ae0b93feee79e5440fffa8090116d42d/AndroidManifest.xml:9:13-77
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6dc721661a41c8b71c0b2e97b212c558/AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/6875489cd99c1c939c95aa928584ae9d/AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/862e60a7c6342799bcb42e1865fed9db/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f74907e5fe830114af319e591677f76/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/27cad060b695e3926e6b5df699f86f6f/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/minos.ai/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/64f4ef042531e8d3ce010f6241c12ee9/AndroidManifest.xml:24:13-58
