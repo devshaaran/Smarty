@@ -200,29 +200,31 @@ def camera_initiate():
 
     # create the in-memory stream
     stream = io.BytesIO()
+    while True:
+        with picamera.PiCamera() as camera:
 
-    with picamera.PiCamera() as camera:
-
-        # set camera resolution
-        camera.resolution = cameraResolution
-        # print("Starting camera preview...")
-
-        while True:
+            # set camera resolution
+            camera.resolution = cameraResolution
+            # print("Starting camera preview...") 
 
             camera.start_preview()
             if (GPIO.input(cn2) == 0):
                 camera.capture(stream, format='jpeg', resize=device.size)
+                camera.capture('/home/pi/smart_glass-master/test_image/' + str(rand.randint(0, 99999999)) + '.jpeg', format='jpeg')
                 camera.close()
                 # "rewind" the stream to the beginning so we can read its content
                 stream.seek(0)
                 # print("Displaying photo for {0} seconds...".format(displayTime))
                 # open photo
                 photo = Image.open(stream)
-                photo.save('home/' + str(rand.randint(0, 99999999)) + '.jpg')
+         
                 # display on screen for a few seconds
                 device.display(photo.convert(device.mode))
                 sleep(displayTime)
-            if (GPIO.input(cn3) == 0):
+                print('here')
+                photo_cam = Image.open('/home/pi/smart_glass-master/Images/check_cam.png')
+                device.display(photo_cam.convert(device.mode))
+            elif (GPIO.input(cn3) == 0):
                 camera.close()
                 break
 
@@ -586,3 +588,4 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         pass
+
