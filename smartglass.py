@@ -142,7 +142,7 @@ def initiate_gif(img_path):
                 background = Image.new("RGB", device.size, "white")
                 background.paste(frame)
                 device.display(background.convert(device.mode))
-                print(count)
+               
 
 
 def weather_req():
