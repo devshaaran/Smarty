@@ -1,4 +1,4 @@
-# Smarty -  Alpha
+# Smarty -  (Alpha)
 
 World's first fully Open-sourced pythonic Smart glass just made for everyone who wishes to try and make it your daily wear!
 
