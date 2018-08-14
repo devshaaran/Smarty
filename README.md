@@ -96,3 +96,8 @@ Download and place the codes in this repository to your python destination ( `ro
 * Once everything is setup its time to start our smarty for the first time 
 
 
+## TODO :
+
+* Voice assisstant 
+
+* Pop up tone 
